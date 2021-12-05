@@ -1,0 +1,9 @@
+.bgColor{
+background-color: none;
+}
+#mynav ul li a{
+    color:white;
+}
+.box{
+    background-image: ("images/keyboard.png");
+}
