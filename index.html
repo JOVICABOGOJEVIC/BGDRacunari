@@ -46,17 +46,17 @@
         }
 
         .navbar {
-            background-image: linear-gradient(#303030, transparent);
+            background-image: linear-gradient(rgb(2, 2, 20), transparent);
         }
 
         .page-footer,
         .top-nav-collapse {
-            background-color: #1C2331
+            background-color: rgb(4, 4, 54)
         }
 
         @media only screen and (max-width:768px) {
             .navbar {
-                background-color: #1C2331
+                background-color:rgb(1, 1, 26)
             }
         }
 
@@ -72,7 +72,7 @@
   }*/
         footer {
             background-image: linear-gradient(rgba(rgb(39, 15, 199), 0.9),(rgba rgb(155, 140, 240), 0.9)), url(https://cdn.pixabay.com/photo/2015/07/10/16/33/structure-839656__340.jpg);
-
+margin-top:300px;
         }
 
         main p strong {
@@ -150,6 +150,10 @@
         .card-header {
             background-image: linear-gradient(to right, #f2f2f2, white, #f2f2f2);
         }
+        .imgCards{
+            max-width: 90%;
+            position: absolute;
+        }
     </style>
 </head>
 
@@ -215,66 +219,35 @@
  background-repeat: no-repeat; background-size: cover; height:850px; margin-top:-12%;">
         <div class="centered">SERVIS <br> RAČUNARA I LAPTOPOVA</div>
     </div>
-    <div class="container">
+    <div class="container-fluid">
         
         <h1 style="color:rgb(167, 3, 3); font-weight:  bold; padding:10px; font-family: 'Varela Round', sans-serif; border:2px solid black;">
              <b style="color:white; font-size:36px; padding:7px; background-color:rgb(104, 3, 104);">B</b> 
             <b style="color:white; font-size:36px; padding:7px; background-color:rgb(175, 6, 6);">G</b> 
              <b style="color:white; font-size:36px; padding:7px; background-color:rgb(204, 116, 7);">D</b>    
             - RAČUNARI</h1>
+         <!--cards-->
+         <div class="section">
+         <div class="row">
+             <div class="col-lg-4 col-md12">
+                 <img src="https://media.istockphoto.com/photos/computer-repairman-installing-new-hard-disk-drive-in-laptop-picture-id928791050?k=20&m=928791050&s=612x612&w=0&h=NYAso8DsAUbXWps0xEpxlS_rzsxSN37PzGupzmFi71Y="
+                 class="imgCards" alt="First slide">
+                 <p style="position:relative; color:rgb(20, 20, 24);">Popravka uredjaja</p>
+                </div>
+             
+             <div class="col-lg-4 col-md12">
+                 <img src="https://media.istockphoto.com/photos/online-shopping-ecommerce-and-retail-sale-concept-white-basket-for-picture-id1201524604?k=20&m=1201524604&s=612x612&w=0&h=oAYBGzvTSsVgWG5Cb8AymS3Zr9fD-YmrODC6dE1heRU=" alt=""
+                 class="imgCards">
+             </div>
+             <div class="col-lg-4 col-md12">
+                 <img src="https://media.istockphoto.com/photos/recycle-button-on-computer-keyboard-picture-id476354618?k=20&m=476354618&s=612x612&w=0&h=ZK8vGSa8pY3Y59GOx5VvKDnpaLtfZjXPuhW37Rv3FAY=" alt=""
+                 class="imgCards">
+             </div>
+            </div>
+         </div>
+         </div>
          
 <!--SLIDER-->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100" style="height:500px;" src="https://media.istockphoto.com/photos/computer-repairman-installing-new-hard-disk-drive-in-laptop-picture-id928791050?k=20&m=928791050&s=612x612&w=0&h=NYAso8DsAUbXWps0xEpxlS_rzsxSN37PzGupzmFi71Y=" alt="First slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" style="height:500px;" src="https://media.istockphoto.com/photos/online-shopping-ecommerce-and-retail-sale-concept-white-basket-for-picture-id1201524604?k=20&m=1201524604&s=612x612&w=0&h=oAYBGzvTSsVgWG5Cb8AymS3Zr9fD-YmrODC6dE1heRU=" alt="Second slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" style="height:500px;" src="https://media.istockphoto.com/photos/recycle-button-on-computer-keyboard-picture-id476354618?k=20&m=476354618&s=612x612&w=0&h=ZK8vGSa8pY3Y59GOx5VvKDnpaLtfZjXPuhW37Rv3FAY=" alt="Third slide">
-      </div>
-    </div>
-    <div class="carousel-caption d-none d-md-block">
-        <h5>Neki naslov</h5>
-        <p>Neki paragraf</p>
-      </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-
-    <div class="row">
-        <div class="col-lg-3 col-md-12">
-            <main style="font-family: 'Varela Round', sans-serif;">
-                <h3 style="font-size:1.5em; text-align:center; font-weight: bold; margin-top:6%;">USLUGE SERVISA</h3>
-            </main>
-        </div>
-        <div class="col-lg-6 col-md-12">
-            <main style="font-family: 'Varela Round', sans-serif;">
-                <h3 style="font-size:1.5em; text-align:center;  font-weight: bold; margin-top:6%;">
-                    SERVIS RAČUNARA I LAPTOPOVA</h3>
-            </main>
-        </div>
-        <div class="col-lg-3 col-md-12">
-            <main style="font-family: 'Varela Round', sans-serif;">
-                <h3 style="font-size:1.5em; text-align:center;  font-weight: bold; margin-top:6%;">ONLINE PRODAVNICA</h3>
-            </main>
-        </div>
-    </div>
-</div>
-
     <!--Footer-->
     <footer class="page-footer text-center   wow fadeIn">
 
